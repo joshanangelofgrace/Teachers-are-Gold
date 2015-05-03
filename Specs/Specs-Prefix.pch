@@ -1,0 +1,25 @@
+//
+//  Specs-Prefix.pch
+//  Teachers-are-Gold
+//
+//  Created by Tim Clem on 3/28/14.
+//  Copyright (c) 2014 Glorious Technologies. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import <CocoaLumberjack/DDLog.h>
+
+    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+
+    #import <Specta/Specta.h>
+
+    #define EXP_SHORTHAND
+    #import <Expecta/Expecta.h>
+
+    #define MOCKITO_SHORTHAND
+    #import <OCMockito/OCMockito.h>
+#endif

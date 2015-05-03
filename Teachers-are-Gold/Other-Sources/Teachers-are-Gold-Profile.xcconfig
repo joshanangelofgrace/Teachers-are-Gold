@@ -1,0 +1,7 @@
+// Build settings for profile builds.
+
+#include "../../External/xcconfigs/iOS/iOS-Application.xcconfig"
+#include "../../External/xcconfigs/Base/Configurations/Profile.xcconfig"
+#include "Teachers-are-Gold.xcconfig"
+
+ONLY_ACTIVE_ARCH = YES

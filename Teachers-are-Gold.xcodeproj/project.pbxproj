@@ -1,0 +1,1059 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
+		074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */; };
+		BD304C8118E672EA0034105E /* TAGDummySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BD304C8018E672EA0034105E /* TAGDummySpec.m */; };
+		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
+		BD35136619BE274A00A19841 /* TAGConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BD35136519BE274A00A19841 /* TAGConstants.m */; };
+		BD3CA8BC18D8A6D200C993E0 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = BD3CA8BB18D8A6D200C993E0 /* default.css */; };
+		BD3D80F318E8AD9100FAD1EB /* ZZZCodeCoverageFixForiOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3D80F218E8AD9100FAD1EB /* ZZZCodeCoverageFixForiOS7.m */; };
+		BD6951CF18EA4B0800F2F410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6951CE18EA4B0800F2F410 /* main.m */; };
+		BD6951ED18EA54BB00F2F410 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6951EB18EA54BB00F2F410 /* Main_iPad.storyboard */; };
+		BD6951EE18EA54BB00F2F410 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6951EC18EA54BB00F2F410 /* Main_iPhone.storyboard */; };
+		BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = BD934CD119C211F600B48551 /* AssetCatalogIdentifiers.m */; };
+		BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = BD934CD319C211F600B48551 /* StoryboardIdentifiers.m */; };
+		BDDB996318C3943B003EBC42 /* TAGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDB996218C3943B003EBC42 /* TAGAppDelegate.m */; };
+		BDDB996C18C3943B003EBC42 /* TAGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDB996B18C3943B003EBC42 /* TAGViewController.m */; };
+		BDDB996E18C3943B003EBC42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDB996D18C3943B003EBC42 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		BD3D80F418E8B70200FAD1EB /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.scss";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			name = "SCSS compilation";
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).css",
+			);
+			script = "# This build rule converts .scss (sass) files in your project to .css files.\n# You will need to have sass installed to use it. See http://sass-lang.com/install\n# for instructions.\n\n# If you won't be using sass or Pixate Freestyle, feel free to remove this,\n# though it won't do anything unless there are scss files in your project.\n\n\"${SRCROOT}/Scripts/SCSSBuildRule.sh\"";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		BDDB997818C3943B003EBC42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDB994718C3943B003EBC42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDB994E18C3943B003EBC42;
+			remoteInfo = Teachers-are-Gold;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_staging.xcconfig"; sourceTree = "<group>"; };
+		2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.adhoc_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.adhoc_production.xcconfig"; sourceTree = "<group>"; };
+		326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_production.xcconfig"; sourceTree = "<group>"; };
+		3EA32E3BEF65BE84130D7190 /* Pods.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.profile_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.profile_production.xcconfig"; sourceTree = "<group>"; };
+		40BA951C2C05A8E480C4A89C /* Pods-Specs.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.distribution.xcconfig"; sourceTree = "<group>"; };
+		46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D26DC1D97A4FF5AB8CC483F /* Pods-Specs.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.profile_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.profile_production.xcconfig"; sourceTree = "<group>"; };
+		570039B4FD45DBAF5A8E969C /* Pods.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.test_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.test_production.xcconfig"; sourceTree = "<group>"; };
+		5AF873AF0F585B45C1E0F5B4 /* Pods.adhoc_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.adhoc_staging.xcconfig; path = "Pods/Target Support Files/Pods/Pods.adhoc_staging.xcconfig"; sourceTree = "<group>"; };
+		62820E5E5DCE1B7643DDFCAC /* Pods.debug_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug_production.xcconfig"; sourceTree = "<group>"; };
+		6770FFEDF6A5EE7451E4DEDF /* Pods-Specs.adhoc_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.adhoc_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.adhoc_staging.xcconfig"; sourceTree = "<group>"; };
+		6AE8431A4C79A1C8F2737EEB /* Pods.profile_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.profile_staging.xcconfig; path = "Pods/Target Support Files/Pods/Pods.profile_staging.xcconfig"; sourceTree = "<group>"; };
+		8B825A2DB6F2180BF8C6BAE6 /* Pods.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.distribution.xcconfig; path = "Pods/Target Support Files/Pods/Pods.distribution.xcconfig"; sourceTree = "<group>"; };
+		973497EBFED9FC87626B9E25 /* Pods.debug_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug_staging.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug_staging.xcconfig"; sourceTree = "<group>"; };
+		A06B515E067379B8477A8245 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A22FEAECDB5B172A6420E4 /* Pods.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.test_staging.xcconfig; path = "Pods/Target Support Files/Pods/Pods.test_staging.xcconfig"; sourceTree = "<group>"; };
+		B9B99CA30A14373A9E910099 /* Pods-Specs.debug_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.debug_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.debug_staging.xcconfig"; sourceTree = "<group>"; };
+		BD304C8018E672EA0034105E /* TAGDummySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGDummySpec.m; sourceTree = "<group>"; };
+		BD304C8218E77F7E0034105E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		BD35136419BE274A00A19841 /* TAGConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGConstants.h; sourceTree = "<group>"; };
+		BD35136519BE274A00A19841 /* TAGConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGConstants.m; sourceTree = "<group>"; };
+		BD3570BB19929359006C5409 /* Teachers-are-Gold-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Teachers-are-Gold-Debug.xcconfig"; sourceTree = "<group>"; };
+		BD3570BC199293C2006C5409 /* Teachers-are-Gold-Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Teachers-are-Gold-Profile.xcconfig"; sourceTree = "<group>"; };
+		BD3570BD19929436006C5409 /* Teachers-are-Gold-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Teachers-are-Gold-Release.xcconfig"; sourceTree = "<group>"; };
+		BD3CA8BB18D8A6D200C993E0 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		BD3D80F218E8AD9100FAD1EB /* ZZZCodeCoverageFixForiOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZCodeCoverageFixForiOS7.m; sourceTree = "<group>"; };
+		BD49EA2C18EC842B00F73350 /* Teachers-are-Gold-Environment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Teachers-are-Gold-Environment.h"; sourceTree = "<group>"; };
+		BD574AFE18EA481500EDD66F /* Teachers-are-Gold-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teachers-are-Gold-Prefix.pch"; sourceTree = "<group>"; };
+		BD574AFF18EA481500EDD66F /* Teachers-are-Gold-Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Teachers-are-Gold-Test.xcconfig"; sourceTree = "<group>"; };
+		BD574B0018EA481500EDD66F /* Teachers-are-Gold.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Teachers-are-Gold.xcconfig; sourceTree = "<group>"; };
+		BD574B0218EA481500EDD66F /* Pods-Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-Environment.h"; sourceTree = "<group>"; };
+		BD6951CE18EA4B0800F2F410 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD6951EA18EA54A800F2F410 /* Teachers-are-Gold-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Teachers-are-Gold-Info.plist"; sourceTree = "<group>"; };
+		BD6951EB18EA54BB00F2F410 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		BD6951EC18EA54BB00F2F410 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BD934CD019C211F600B48551 /* AssetCatalogIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetCatalogIdentifiers.h; sourceTree = "<group>"; };
+		BD934CD119C211F600B48551 /* AssetCatalogIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetCatalogIdentifiers.m; sourceTree = "<group>"; };
+		BD934CD219C211F600B48551 /* StoryboardIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardIdentifiers.h; sourceTree = "<group>"; };
+		BD934CD319C211F600B48551 /* StoryboardIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardIdentifiers.m; sourceTree = "<group>"; };
+		BD9FFD9418E66DF4001DF6EC /* Specs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
+		BDD81EE419DB5FCB00E45AC2 /* xcconfigs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xcconfigs; sourceTree = "<group>"; };
+		BDDB994F18C3943B003EBC42 /* Teachers-are-Gold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teachers-are-Gold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDB996118C3943B003EBC42 /* TAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGAppDelegate.h; sourceTree = "<group>"; };
+		BDDB996218C3943B003EBC42 /* TAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAGAppDelegate.m; sourceTree = "<group>"; };
+		BDDB996A18C3943B003EBC42 /* TAGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGViewController.h; sourceTree = "<group>"; };
+		BDDB996B18C3943B003EBC42 /* TAGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGViewController.m; sourceTree = "<group>"; };
+		BDDB996D18C3943B003EBC42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDDB997318C3943B003EBC42 /* Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDB997C18C3943B003EBC42 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
+		D5905E5F82BFFA7584BAD4C5 /* Pods-Specs.debug_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.debug_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.debug_production.xcconfig"; sourceTree = "<group>"; };
+		D803149862748E9E696037FB /* Pods-Specs.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.adhoc_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.adhoc_production.xcconfig"; sourceTree = "<group>"; };
+		D854A3C5B42BB78F9F14DC65 /* Pods-Specs.profile_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.profile_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.profile_staging.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDDB994C18C3943B003EBC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB997018C3943B003EBC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55C5AA14CC157D6E10D487F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				973497EBFED9FC87626B9E25 /* Pods.debug_staging.xcconfig */,
+				62820E5E5DCE1B7643DDFCAC /* Pods.debug_production.xcconfig */,
+				B9A22FEAECDB5B172A6420E4 /* Pods.test_staging.xcconfig */,
+				570039B4FD45DBAF5A8E969C /* Pods.test_production.xcconfig */,
+				8B825A2DB6F2180BF8C6BAE6 /* Pods.distribution.xcconfig */,
+				5AF873AF0F585B45C1E0F5B4 /* Pods.adhoc_staging.xcconfig */,
+				2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */,
+				6AE8431A4C79A1C8F2737EEB /* Pods.profile_staging.xcconfig */,
+				3EA32E3BEF65BE84130D7190 /* Pods.profile_production.xcconfig */,
+				B9B99CA30A14373A9E910099 /* Pods-Specs.debug_staging.xcconfig */,
+				D5905E5F82BFFA7584BAD4C5 /* Pods-Specs.debug_production.xcconfig */,
+				12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */,
+				326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */,
+				40BA951C2C05A8E480C4A89C /* Pods-Specs.distribution.xcconfig */,
+				6770FFEDF6A5EE7451E4DEDF /* Pods-Specs.adhoc_staging.xcconfig */,
+				D803149862748E9E696037FB /* Pods-Specs.adhoc_production.xcconfig */,
+				D854A3C5B42BB78F9F14DC65 /* Pods-Specs.profile_staging.xcconfig */,
+				4D26DC1D97A4FF5AB8CC483F /* Pods-Specs.profile_production.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD3CA8BA18D8A68600C993E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB996D18C3943B003EBC42 /* Images.xcassets */,
+				BD3CA8BB18D8A6D200C993E0 /* default.css */,
+				BD304C8218E77F7E0034105E /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD574AFA18EA47FA00EDD66F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		BD574AFB18EA47FA00EDD66F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD574AFC18EA481500EDD66F /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BD934CCF19C211F600B48551 /* Generated */,
+				BD35136419BE274A00A19841 /* TAGConstants.h */,
+				BD35136519BE274A00A19841 /* TAGConstants.m */,
+				BD6951EA18EA54A800F2F410 /* Teachers-are-Gold-Info.plist */,
+				BD574B0018EA481500EDD66F /* Teachers-are-Gold.xcconfig */,
+				BD3570BB19929359006C5409 /* Teachers-are-Gold-Debug.xcconfig */,
+				BD574AFF18EA481500EDD66F /* Teachers-are-Gold-Test.xcconfig */,
+				BD3570BC199293C2006C5409 /* Teachers-are-Gold-Profile.xcconfig */,
+				BD3570BD19929436006C5409 /* Teachers-are-Gold-Release.xcconfig */,
+				BD49EA2C18EC842B00F73350 /* Teachers-are-Gold-Environment.h */,
+				BD574B0218EA481500EDD66F /* Pods-Environment.h */,
+			);
+			name = "Other Sources";
+			path = "Other-Sources";
+			sourceTree = "<group>";
+		};
+		BD574B0318EA481500EDD66F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD934CCF19C211F600B48551 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				BD934CD019C211F600B48551 /* AssetCatalogIdentifiers.h */,
+				BD934CD119C211F600B48551 /* AssetCatalogIdentifiers.m */,
+				BD934CD219C211F600B48551 /* StoryboardIdentifiers.h */,
+				BD934CD319C211F600B48551 /* StoryboardIdentifiers.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		BDB71B2518EA46ED00579B97 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BD574AFE18EA481500EDD66F /* Teachers-are-Gold-Prefix.pch */,
+				BD6951CE18EA4B0800F2F410 /* main.m */,
+				BDDB996118C3943B003EBC42 /* TAGAppDelegate.h */,
+				BDDB996218C3943B003EBC42 /* TAGAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BDB71B2618EA471400579B97 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD6951EB18EA54BB00F2F410 /* Main_iPad.storyboard */,
+				BD6951EC18EA54BB00F2F410 /* Main_iPhone.storyboard */,
+				BDDB996A18C3943B003EBC42 /* TAGViewController.h */,
+				BDDB996B18C3943B003EBC42 /* TAGViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BDDB994618C3943B003EBC42 = {
+			isa = PBXGroup;
+			children = (
+				BDDB995818C3943B003EBC42 /* Teachers-are-Gold */,
+				BDDB997A18C3943B003EBC42 /* Specs */,
+				BDF1754E18C3972E008BD9C6 /* External */,
+				D36FABF09F1A984E257F1EAF /* Frameworks */,
+				55C5AA14CC157D6E10D487F9 /* Pods */,
+				BDDB995018C3943B003EBC42 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		BDDB995018C3943B003EBC42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB994F18C3943B003EBC42 /* Teachers-are-Gold.app */,
+				BDDB997318C3943B003EBC42 /* Specs.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDB995818C3943B003EBC42 /* Teachers-are-Gold */ = {
+			isa = PBXGroup;
+			children = (
+				BDB71B2618EA471400579B97 /* Controllers */,
+				BD574AFB18EA47FA00EDD66F /* Models */,
+				BD574AFA18EA47FA00EDD66F /* Library */,
+				BD3CA8BA18D8A68600C993E0 /* Resources */,
+				BD574B0318EA481500EDD66F /* Views */,
+				BDB71B2518EA46ED00579B97 /* Application */,
+				BD574AFC18EA481500EDD66F /* Other Sources */,
+			);
+			path = Teachers-are-Gold;
+			sourceTree = "<group>";
+		};
+		BDDB997A18C3943B003EBC42 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				BD304C8018E672EA0034105E /* TAGDummySpec.m */,
+				BDDB997B18C3943B003EBC42 /* Supporting Files */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		BDDB997B18C3943B003EBC42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB997C18C3943B003EBC42 /* Specs-Info.plist */,
+				BD9FFD9418E66DF4001DF6EC /* Specs-Prefix.pch */,
+				BD3D80F218E8AD9100FAD1EB /* ZZZCodeCoverageFixForiOS7.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDF1754E18C3972E008BD9C6 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				BDD81EE419DB5FCB00E45AC2 /* xcconfigs */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		D36FABF09F1A984E257F1EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A06B515E067379B8477A8245 /* libPods.a */,
+				46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDDB994E18C3943B003EBC42 /* Teachers-are-Gold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDB998418C3943B003EBC42 /* Build configuration list for PBXNativeTarget "Teachers-are-Gold" */;
+			buildPhases = (
+				CE78B447D2424EDEAEAB74EB /* Check Pods Manifest.lock */,
+				BDF4202019B8F31200FE6C13 /* Generate Storyboard Identifier File */,
+				BD79800C19C0CF3E0087DCCA /* Generate Asset Catalog Identifier File */,
+				BDDB994B18C3943B003EBC42 /* Sources */,
+				BDDB994C18C3943B003EBC42 /* Frameworks */,
+				BD36522718CE89C6009107A7 /* Increment Build Number */,
+				BDDB994D18C3943B003EBC42 /* Resources */,
+				5934C2BEC75D4C51B3689E07 /* Copy Pods Resources */,
+				BDF1758318C3A844008BD9C6 /* Crashlytics Script */,
+				BDC7F36218EBA5EE0045D4BD /* Remove Unused Localizations */,
+				BD35136319BE21BD00A19841 /* Badge App Icons */,
+			);
+			buildRules = (
+				BD3D80F418E8B70200FAD1EB /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Teachers-are-Gold;
+			productName = Teachers-are-Gold;
+			productReference = BDDB994F18C3943B003EBC42 /* Teachers-are-Gold.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDDB997218C3943B003EBC42 /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDB998718C3943B003EBC42 /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				295A078AF08D45C99B314B81 /* Check Pods Manifest.lock */,
+				BDDB996F18C3943B003EBC42 /* Sources */,
+				BDDB997018C3943B003EBC42 /* Frameworks */,
+				BDDB997118C3943B003EBC42 /* Resources */,
+				A20A1E42928D4423912BE388 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDB997918C3943B003EBC42 /* PBXTargetDependency */,
+			);
+			name = Specs;
+			productName = Teachers-are-GoldTests;
+			productReference = BDDB997318C3943B003EBC42 /* Specs.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDDB994718C3943B003EBC42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TAG;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Glorious Technologies";
+				TargetAttributes = {
+					BDDB997218C3943B003EBC42 = {
+						TestTargetID = BDDB994E18C3943B003EBC42;
+					};
+				};
+			};
+			buildConfigurationList = BDDB994A18C3943B003EBC42 /* Build configuration list for PBXProject "Teachers-are-Gold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDDB994618C3943B003EBC42;
+			productRefGroup = BDDB995018C3943B003EBC42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDB994E18C3943B003EBC42 /* Teachers-are-Gold */,
+				BDDB997218C3943B003EBC42 /* Specs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDDB994D18C3943B003EBC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDB996E18C3943B003EBC42 /* Images.xcassets in Resources */,
+				BD6951ED18EA54BB00F2F410 /* Main_iPad.storyboard in Resources */,
+				BD6951EE18EA54BB00F2F410 /* Main_iPhone.storyboard in Resources */,
+				BD304C8318E77F7E0034105E /* Settings.bundle in Resources */,
+				BD3CA8BC18D8A6D200C993E0 /* default.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB997118C3943B003EBC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		295A078AF08D45C99B314B81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5934C2BEC75D4C51B3689E07 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20A1E42928D4423912BE388 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Specs/Pods-Specs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD35136319BE21BD00A19841 /* Badge App Icons */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Badge App Icons";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# For non-app store builds, this script badges the app's icons to indicate whether\n# the build targets staging or production, as well as its version and build number.\n# Changes are made to the icons in the products directory; the icons in your app\n# are unchanged.\n\n# As always, if this isn't to your liking, feel free to remove this build phase.\n\n\"${SRCROOT}/Scripts/BadgeIcons.py\"";
+			showEnvVarsInLog = 0;
+		};
+		BD36522718CE89C6009107A7 /* Increment Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script increments the build number (CFBundleVersion in the Info.plist)\n# on Ad-Hoc or Distribution builds that target real devices.\n# In the context of Amaro, that means an archive build of any scheme, or any\n# non-simulator build of the AppStore scheme.\n\n# Feel free to remove this build phase if that is not desired behavior for you.\n\n\"${SRCROOT}/Scripts/IncrementBuildNumber.py\"";
+			showEnvVarsInLog = 0;
+		};
+		BD79800C19C0CF3E0087DCCA /* Generate Asset Catalog Identifier File */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Asset Catalog Identifier File";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script walks the asset catalogs in your project and creates\n# AssetCatalogIdentifiers.{h,m} with methods for all the UIImages\n# found therein.\n# The generated files live in the Other Sources group.\n\n# If this is not desired behavior for you, or you don't use\n# asset catalogs, feel free to remove this build phase and the\n# generated files in Other Sources.\n\n\"${SRCROOT}/Scripts/GenerateAssetCatalogIDs.py\"";
+			showEnvVarsInLog = 0;
+		};
+		BDC7F36218EBA5EE0045D4BD /* Remove Unused Localizations */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Remove Unused Localizations";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This removes localization files for regions which you haven't explicitly localized\n# in the project settings. This is to work around an issue with pods that include\n# localizations for many languages, and the subsequent misreading of those files\n# by iTunes Connect.\n# See this GitHub issue for more details and other workarounds:\n# https://github.com/mattt/FormatterKit/issues/88\n\n# Feel free to remove this build phase if that problem doesn't apply to you,\n# though leaving it in should be harmless.\n\n\"${SRCROOT}/Scripts/RemoveUnusedLocalizations.py\"";
+			showEnvVarsInLog = 0;
+		};
+		BDF1758318C3A844008BD9C6 /* Crashlytics Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Crashlytics Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# If you have installed the Crashlytics pod, this script runs the required\n# setup script. If you didn't set up Crashlytics in the bootstrap script,\n# you will need to insert your API key below, as well as in the AppDelegate.\n# You can retrieve that key by running this command in Terminal:\n# ruby -e \"$(curl -fsSL https://raw.github.com/crushlovely/Amaro/master/tiramisu)\" -- --crashlytics\n\n# If you didn't install the CrashlyticsFramework pod, this script will do nothing.\n# Feel free to remove it in that case, if you wish.\n\nCRASHLYTICS_SCRIPT=\"./Pods/CrashlyticsFramework/Crashlytics.framework/run\"\n[ -x \"$CRASHLYTICS_SCRIPT\" ] || exit 0\n\n# Enter your key below:\nCRASHLYTICS_API_KEY=\"((CrashlyticsAPIKey))\"\n\nif [ \"${CRASHLYTICS_API_KEY:0:1}\" = \"(\" ]; then\n  echo \"warning: Set your Crashlytics API key in the Build Phases tab to enable Crashlytics integration\" 1>&2\n  exit 0\nfi\n\n\"$CRASHLYTICS_SCRIPT\" \"$CRASHLYTICS_API_KEY\"";
+			showEnvVarsInLog = 0;
+		};
+		BDF4202019B8F31200FE6C13 /* Generate Storyboard Identifier File */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Storyboard Identifier File";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script walks the storyboards in your project and creates\n# StoryboardIdentifiers.{h,m} with constants for all the segue,\n# reuse, restoration, and storyboard identifiers.\n# The generated files live in the Other Sources group.\n\n# If this is not desired behavior for you, or you don't use\n# storyboards, feel free to remove this build phase and the\n# generated files in Other Sources.\n\n# If you would like constants generated for restoration IDs,\n# uncomment this line:\n#export NEED_RESTORATION_IDS=1\n\n\"${SRCROOT}/Scripts/GenerateStoryboardIDs.py\"";
+			showEnvVarsInLog = 0;
+		};
+		CE78B447D2424EDEAEAB74EB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDDB994B18C3943B003EBC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD35136619BE274A00A19841 /* TAGConstants.m in Sources */,
+				BDDB996318C3943B003EBC42 /* TAGAppDelegate.m in Sources */,
+				BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */,
+				BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */,
+				BD6951CF18EA4B0800F2F410 /* main.m in Sources */,
+				BDDB996C18C3943B003EBC42 /* TAGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB996F18C3943B003EBC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD304C8118E672EA0034105E /* TAGDummySpec.m in Sources */,
+				BD3D80F318E8AD9100FAD1EB /* ZZZCodeCoverageFixForiOS7.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDDB997918C3943B003EBC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDB994E18C3943B003EBC42 /* Teachers-are-Gold */;
+			targetProxy = BDDB997818C3943B003EBC42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD49EA2018EC611D00F73350 /* Debug_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3570BB19929359006C5409 /* Teachers-are-Gold-Debug.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug_Production;
+		};
+		BD49EA2118EC611D00F73350 /* Debug_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62820E5E5DCE1B7643DDFCAC /* Pods.debug_production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID_SUFFIX = .prod;
+				BUNDLE_NAME_SUFFIX = " (Prod)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
+				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug_Production;
+		};
+		BD49EA2218EC611D00F73350 /* Debug_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5905E5F82BFFA7584BAD4C5 /* Pods-Specs.debug_production.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Teachers-are-Gold.app/Teachers-are-Gold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug_Production;
+		};
+		BD49EA2318EC612E00F73350 /* Test_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD574AFF18EA481500EDD66F /* Teachers-are-Gold-Test.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test_Production;
+		};
+		BD49EA2418EC612E00F73350 /* Test_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570039B4FD45DBAF5A8E969C /* Pods.test_production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID_SUFFIX = .prod;
+				BUNDLE_NAME_SUFFIX = " (Prod)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
+				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Test_Production;
+		};
+		BD49EA2518EC612E00F73350 /* Test_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Teachers-are-Gold.app/Teachers-are-Gold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Test_Production;
+		};
+		BD49EA2618EC614F00F73350 /* AdHoc_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3570BD19929436006C5409 /* Teachers-are-Gold-Release.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc_Production;
+		};
+		BD49EA2718EC614F00F73350 /* AdHoc_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID_SUFFIX = .prod;
+				BUNDLE_NAME_SUFFIX = " (Prod)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
+				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AdHoc_Production;
+		};
+		BD49EA2818EC614F00F73350 /* AdHoc_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D803149862748E9E696037FB /* Pods-Specs.adhoc_production.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Teachers-are-Gold.app/Teachers-are-Gold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = AdHoc_Production;
+		};
+		BD49EA2918EC62DD00F73350 /* Profile_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3570BC199293C2006C5409 /* Teachers-are-Gold-Profile.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile_Production;
+		};
+		BD49EA2A18EC62DD00F73350 /* Profile_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA32E3BEF65BE84130D7190 /* Pods.profile_production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID_SUFFIX = .prod;
+				BUNDLE_NAME_SUFFIX = " (Prod)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
+				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Profile_Production;
+		};
+		BD49EA2B18EC62DD00F73350 /* Profile_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D26DC1D97A4FF5AB8CC483F /* Pods-Specs.profile_production.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Teachers-are-Gold.app/Teachers-are-Gold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Profile_Production;
+		};
+		BDD67CDB18DFAB85008ECBBD /* AdHoc_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3570BD19929436006C5409 /* Teachers-are-Gold-Release.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc_Staging;
+		};
+		BDD67CDC18DFAB85008ECBBD /* AdHoc_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF873AF0F585B45C1E0F5B4 /* Pods.adhoc_staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID_SUFFIX = .staging;
+				BUNDLE_NAME_SUFFIX = " (Staging)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
+				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AdHoc_Staging;
+		};
+		BDD67CDD18DFAB85008ECBBD /* AdHoc_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6770FFEDF6A5EE7451E4DEDF /* Pods-Specs.adhoc_staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Teachers-are-Gold.app/Teachers-are-Gold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = AdHoc_Staging;
+		};
+		BDDB998218C3943B003EBC42 /* Debug_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3570BB19929359006C5409 /* Teachers-are-Gold-Debug.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug_Staging;
+		};
+		BDDB998318C3943B003EBC42 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3570BD19929436006C5409 /* Teachers-are-Gold-Release.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		BDDB998518C3943B003EBC42 /* Debug_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973497EBFED9FC87626B9E25 /* Pods.debug_staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID_SUFFIX = .staging;
+				BUNDLE_NAME_SUFFIX = " (Staging)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
+				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug_Staging;
+		};
+		BDDB998618C3943B003EBC42 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B825A2DB6F2180BF8C6BAE6 /* Pods.distribution.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID_SUFFIX = "";
+				BUNDLE_NAME_SUFFIX = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
+				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Distribution;
+		};
+		BDDB998818C3943B003EBC42 /* Debug_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B99CA30A14373A9E910099 /* Pods-Specs.debug_staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Teachers-are-Gold.app/Teachers-are-Gold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug_Staging;
+		};
+		BDDB998918C3943B003EBC42 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40BA951C2C05A8E480C4A89C /* Pods-Specs.distribution.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Teachers-are-Gold.app/Teachers-are-Gold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
+		BDF1757A18C3986D008BD9C6 /* Profile_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3570BC199293C2006C5409 /* Teachers-are-Gold-Profile.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile_Staging;
+		};
+		BDF1757B18C3986D008BD9C6 /* Profile_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE8431A4C79A1C8F2737EEB /* Pods.profile_staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID_SUFFIX = .staging;
+				BUNDLE_NAME_SUFFIX = " (Staging)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
+				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Profile_Staging;
+		};
+		BDF1757C18C3986D008BD9C6 /* Profile_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D854A3C5B42BB78F9F14DC65 /* Pods-Specs.profile_staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Teachers-are-Gold.app/Teachers-are-Gold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Profile_Staging;
+		};
+		BDF1757D18C39BD3008BD9C6 /* Test_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD574AFF18EA481500EDD66F /* Teachers-are-Gold-Test.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test_Staging;
+		};
+		BDF1757E18C39BD3008BD9C6 /* Test_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A22FEAECDB5B172A6420E4 /* Pods.test_staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_ID_SUFFIX = .staging;
+				BUNDLE_NAME_SUFFIX = " (Staging)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
+				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Test_Staging;
+		};
+		BDF1757F18C39BD3008BD9C6 /* Test_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Teachers-are-Gold.app/Teachers-are-Gold";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Test_Staging;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDDB994A18C3943B003EBC42 /* Build configuration list for PBXProject "Teachers-are-Gold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB998218C3943B003EBC42 /* Debug_Staging */,
+				BD49EA2018EC611D00F73350 /* Debug_Production */,
+				BDF1757D18C39BD3008BD9C6 /* Test_Staging */,
+				BD49EA2318EC612E00F73350 /* Test_Production */,
+				BDDB998318C3943B003EBC42 /* Distribution */,
+				BDD67CDB18DFAB85008ECBBD /* AdHoc_Staging */,
+				BD49EA2618EC614F00F73350 /* AdHoc_Production */,
+				BDF1757A18C3986D008BD9C6 /* Profile_Staging */,
+				BD49EA2918EC62DD00F73350 /* Profile_Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		BDDB998418C3943B003EBC42 /* Build configuration list for PBXNativeTarget "Teachers-are-Gold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB998518C3943B003EBC42 /* Debug_Staging */,
+				BD49EA2118EC611D00F73350 /* Debug_Production */,
+				BDF1757E18C39BD3008BD9C6 /* Test_Staging */,
+				BD49EA2418EC612E00F73350 /* Test_Production */,
+				BDDB998618C3943B003EBC42 /* Distribution */,
+				BDD67CDC18DFAB85008ECBBD /* AdHoc_Staging */,
+				BD49EA2718EC614F00F73350 /* AdHoc_Production */,
+				BDF1757B18C3986D008BD9C6 /* Profile_Staging */,
+				BD49EA2A18EC62DD00F73350 /* Profile_Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		BDDB998718C3943B003EBC42 /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB998818C3943B003EBC42 /* Debug_Staging */,
+				BD49EA2218EC611D00F73350 /* Debug_Production */,
+				BDF1757F18C39BD3008BD9C6 /* Test_Staging */,
+				BD49EA2518EC612E00F73350 /* Test_Production */,
+				BDDB998918C3943B003EBC42 /* Distribution */,
+				BDD67CDD18DFAB85008ECBBD /* AdHoc_Staging */,
+				BD49EA2818EC614F00F73350 /* AdHoc_Production */,
+				BDF1757C18C3986D008BD9C6 /* Profile_Staging */,
+				BD49EA2B18EC62DD00F73350 /* Profile_Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDDB994718C3943B003EBC42 /* Project object */;
+}
