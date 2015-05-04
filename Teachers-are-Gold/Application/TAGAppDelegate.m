@@ -33,7 +33,8 @@
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [self initializeLoggingAndServices];
-
+    [self setUpRemoteNotifications:application];
+    
     return YES;
 }
 
@@ -42,6 +43,56 @@
     [self scheduleCheckForUpdates];
 }
 
+/**
+ *  Registers the application for remote notifications and as Parse is used to support this service, sets up any Parse integration neccessary.
+ *
+ *  @return nil
+ */
+#pragma mark Remote Notifications
+- (void)setUpRemoteNotifications:(UIApplication *)application
+{
+    // Register for Push Notitications
+    UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
+                                                    UIUserNotificationTypeBadge |
+                                                    UIUserNotificationTypeSound);
+    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes
+                                                                             categories:nil];
+    [application registerUserNotificationSettings:settings];
+    [application registerForRemoteNotifications];
+    
+    
+}
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
+{
+    
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    
+}
+
+- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings
+{
+    
+}
+
+#pragma mark General Application Management
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+    
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    
+}
 
 #pragma mark Amaro foundation goodies
 

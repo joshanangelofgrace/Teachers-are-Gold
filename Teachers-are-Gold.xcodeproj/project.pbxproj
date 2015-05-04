@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
 		074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */; };
-		422C8B2D1AF7BFC700BCC34F /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B2B1AF7BFC700BCC34F /* Fabric.framework */; };
-		422C8B2E1AF7BFC700BCC34F /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B2C1AF7BFC700BCC34F /* Crashlytics.framework */; };
 		422C8B321AF7C30100BCC34F /* TAGEnumerations.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C8B311AF7C30100BCC34F /* TAGEnumerations.m */; };
 		422C8B361AF7C3B800BCC34F /* TAGLoginStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C8B351AF7C3B800BCC34F /* TAGLoginStatus.m */; };
-		422C8B3C1AF7C64300BCC34F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B371AF7C64300BCC34F /* Parse.framework */; };
-		422C8B3D1AF7C64300BCC34F /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B381AF7C64300BCC34F /* ParseCrashReporting.framework */; };
-		422C8B3E1AF7C64300BCC34F /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B391AF7C64300BCC34F /* ParseFacebookUtils.framework */; };
-		422C8B3F1AF7C64300BCC34F /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B3A1AF7C64300BCC34F /* ParseFacebookUtilsV4.framework */; };
-		422C8B401AF7C64300BCC34F /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B3B1AF7C64300BCC34F /* ParseUI.framework */; };
-		422C8B421AF7C65900BCC34F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B411AF7C65900BCC34F /* Bolts.framework */; };
+		42CFFD781AF7D204006B9679 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CFFD701AF7D204006B9679 /* Bolts.framework */; };
+		42CFFD791AF7D204006B9679 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CFFD711AF7D204006B9679 /* Crashlytics.framework */; };
+		42CFFD7A1AF7D204006B9679 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CFFD721AF7D204006B9679 /* Fabric.framework */; };
+		42CFFD7B1AF7D204006B9679 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CFFD731AF7D204006B9679 /* Parse.framework */; };
+		42CFFD7C1AF7D204006B9679 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CFFD741AF7D204006B9679 /* ParseCrashReporting.framework */; };
+		42CFFD7D1AF7D204006B9679 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CFFD751AF7D204006B9679 /* ParseFacebookUtils.framework */; };
+		42CFFD7E1AF7D204006B9679 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CFFD761AF7D204006B9679 /* ParseFacebookUtilsV4.framework */; };
+		42CFFD7F1AF7D204006B9679 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CFFD771AF7D204006B9679 /* ParseUI.framework */; };
 		BD304C8118E672EA0034105E /* TAGDummySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BD304C8018E672EA0034105E /* TAGDummySpec.m */; };
 		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
 		BD35136619BE274A00A19841 /* TAGConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BD35136519BE274A00A19841 /* TAGConstants.m */; };
@@ -65,17 +65,17 @@
 		326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_production.xcconfig"; sourceTree = "<group>"; };
 		3EA32E3BEF65BE84130D7190 /* Pods.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.profile_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.profile_production.xcconfig"; sourceTree = "<group>"; };
 		40BA951C2C05A8E480C4A89C /* Pods-Specs.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.distribution.xcconfig"; sourceTree = "<group>"; };
-		422C8B2B1AF7BFC700BCC34F /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		422C8B2C1AF7BFC700BCC34F /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		422C8B311AF7C30100BCC34F /* TAGEnumerations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGEnumerations.m; sourceTree = "<group>"; };
 		422C8B341AF7C3B800BCC34F /* TAGLoginStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGLoginStatus.h; sourceTree = "<group>"; };
 		422C8B351AF7C3B800BCC34F /* TAGLoginStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGLoginStatus.m; sourceTree = "<group>"; };
-		422C8B371AF7C64300BCC34F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		422C8B381AF7C64300BCC34F /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
-		422C8B391AF7C64300BCC34F /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		422C8B3A1AF7C64300BCC34F /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
-		422C8B3B1AF7C64300BCC34F /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		422C8B411AF7C65900BCC34F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		42CFFD701AF7D204006B9679 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = External/Bolts.framework; sourceTree = "<group>"; };
+		42CFFD711AF7D204006B9679 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = External/Crashlytics.framework; sourceTree = "<group>"; };
+		42CFFD721AF7D204006B9679 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = External/Fabric.framework; sourceTree = "<group>"; };
+		42CFFD731AF7D204006B9679 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = External/Parse.framework; sourceTree = "<group>"; };
+		42CFFD741AF7D204006B9679 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = External/ParseCrashReporting.framework; sourceTree = "<group>"; };
+		42CFFD751AF7D204006B9679 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = External/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		42CFFD761AF7D204006B9679 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = External/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		42CFFD771AF7D204006B9679 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = External/ParseUI.framework; sourceTree = "<group>"; };
 		46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D26DC1D97A4FF5AB8CC483F /* Pods-Specs.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.profile_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.profile_production.xcconfig"; sourceTree = "<group>"; };
 		570039B4FD45DBAF5A8E969C /* Pods.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.test_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.test_production.xcconfig"; sourceTree = "<group>"; };
@@ -130,15 +130,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CFFD7F1AF7D204006B9679 /* ParseUI.framework in Frameworks */,
+				42CFFD7D1AF7D204006B9679 /* ParseFacebookUtils.framework in Frameworks */,
 				036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */,
-				422C8B3D1AF7C64300BCC34F /* ParseCrashReporting.framework in Frameworks */,
-				422C8B3F1AF7C64300BCC34F /* ParseFacebookUtilsV4.framework in Frameworks */,
-				422C8B3E1AF7C64300BCC34F /* ParseFacebookUtils.framework in Frameworks */,
-				422C8B2E1AF7BFC700BCC34F /* Crashlytics.framework in Frameworks */,
-				422C8B3C1AF7C64300BCC34F /* Parse.framework in Frameworks */,
-				422C8B421AF7C65900BCC34F /* Bolts.framework in Frameworks */,
-				422C8B401AF7C64300BCC34F /* ParseUI.framework in Frameworks */,
-				422C8B2D1AF7BFC700BCC34F /* Fabric.framework in Frameworks */,
+				42CFFD7E1AF7D204006B9679 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				42CFFD7C1AF7D204006B9679 /* ParseCrashReporting.framework in Frameworks */,
+				42CFFD791AF7D204006B9679 /* Crashlytics.framework in Frameworks */,
+				42CFFD781AF7D204006B9679 /* Bolts.framework in Frameworks */,
+				42CFFD7A1AF7D204006B9679 /* Fabric.framework in Frameworks */,
+				42CFFD7B1AF7D204006B9679 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,21 +153,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		422C8B2F1AF7C02100BCC34F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				422C8B411AF7C65900BCC34F /* Bolts.framework */,
-				422C8B371AF7C64300BCC34F /* Parse.framework */,
-				422C8B381AF7C64300BCC34F /* ParseCrashReporting.framework */,
-				422C8B391AF7C64300BCC34F /* ParseFacebookUtils.framework */,
-				422C8B3A1AF7C64300BCC34F /* ParseFacebookUtilsV4.framework */,
-				422C8B3B1AF7C64300BCC34F /* ParseUI.framework */,
-				422C8B2B1AF7BFC700BCC34F /* Fabric.framework */,
-				422C8B2C1AF7BFC700BCC34F /* Crashlytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		422C8B301AF7C2A600BCC34F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,7 +275,6 @@
 		BDDB994618C3943B003EBC42 = {
 			isa = PBXGroup;
 			children = (
-				422C8B2F1AF7C02100BCC34F /* Frameworks */,
 				BDDB995818C3943B003EBC42 /* Teachers-are-Gold */,
 				BDDB997A18C3943B003EBC42 /* Specs */,
 				BDF1754E18C3972E008BD9C6 /* External */,
@@ -357,6 +341,14 @@
 		D36FABF09F1A984E257F1EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42CFFD701AF7D204006B9679 /* Bolts.framework */,
+				42CFFD711AF7D204006B9679 /* Crashlytics.framework */,
+				42CFFD721AF7D204006B9679 /* Fabric.framework */,
+				42CFFD731AF7D204006B9679 /* Parse.framework */,
+				42CFFD741AF7D204006B9679 /* ParseCrashReporting.framework */,
+				42CFFD751AF7D204006B9679 /* ParseFacebookUtils.framework */,
+				42CFFD761AF7D204006B9679 /* ParseFacebookUtilsV4.framework */,
+				42CFFD771AF7D204006B9679 /* ParseUI.framework */,
 				A06B515E067379B8477A8245 /* libPods.a */,
 				46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */,
 			);
@@ -681,6 +673,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/External",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
@@ -731,6 +724,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/External",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
@@ -783,6 +777,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/External",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
@@ -834,6 +829,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/External",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
@@ -886,6 +882,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/External",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
@@ -948,6 +945,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/External",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
@@ -969,6 +967,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/External",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
@@ -1039,6 +1038,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/External",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
@@ -1089,6 +1089,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/External",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
