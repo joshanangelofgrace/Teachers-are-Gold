@@ -3,12 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
 		074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */; };
+		422C8B2D1AF7BFC700BCC34F /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B2B1AF7BFC700BCC34F /* Fabric.framework */; };
+		422C8B2E1AF7BFC700BCC34F /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B2C1AF7BFC700BCC34F /* Crashlytics.framework */; };
+		422C8B321AF7C30100BCC34F /* TAGEnumerations.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C8B311AF7C30100BCC34F /* TAGEnumerations.m */; };
+		422C8B361AF7C3B800BCC34F /* TAGLoginStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C8B351AF7C3B800BCC34F /* TAGLoginStatus.m */; };
+		422C8B3C1AF7C64300BCC34F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B371AF7C64300BCC34F /* Parse.framework */; };
+		422C8B3D1AF7C64300BCC34F /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B381AF7C64300BCC34F /* ParseCrashReporting.framework */; };
+		422C8B3E1AF7C64300BCC34F /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B391AF7C64300BCC34F /* ParseFacebookUtils.framework */; };
+		422C8B3F1AF7C64300BCC34F /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B3A1AF7C64300BCC34F /* ParseFacebookUtilsV4.framework */; };
+		422C8B401AF7C64300BCC34F /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B3B1AF7C64300BCC34F /* ParseUI.framework */; };
+		422C8B421AF7C65900BCC34F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422C8B411AF7C65900BCC34F /* Bolts.framework */; };
 		BD304C8118E672EA0034105E /* TAGDummySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BD304C8018E672EA0034105E /* TAGDummySpec.m */; };
 		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
 		BD35136619BE274A00A19841 /* TAGConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BD35136519BE274A00A19841 /* TAGConstants.m */; };
@@ -45,7 +55,7 @@
 			containerPortal = BDDB994718C3943B003EBC42 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BDDB994E18C3943B003EBC42;
-			remoteInfo = Teachers-are-Gold;
+			remoteInfo = "Teachers-are-Gold";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +65,17 @@
 		326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_production.xcconfig"; sourceTree = "<group>"; };
 		3EA32E3BEF65BE84130D7190 /* Pods.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.profile_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.profile_production.xcconfig"; sourceTree = "<group>"; };
 		40BA951C2C05A8E480C4A89C /* Pods-Specs.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.distribution.xcconfig"; sourceTree = "<group>"; };
+		422C8B2B1AF7BFC700BCC34F /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		422C8B2C1AF7BFC700BCC34F /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		422C8B311AF7C30100BCC34F /* TAGEnumerations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGEnumerations.m; sourceTree = "<group>"; };
+		422C8B341AF7C3B800BCC34F /* TAGLoginStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGLoginStatus.h; sourceTree = "<group>"; };
+		422C8B351AF7C3B800BCC34F /* TAGLoginStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGLoginStatus.m; sourceTree = "<group>"; };
+		422C8B371AF7C64300BCC34F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		422C8B381AF7C64300BCC34F /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		422C8B391AF7C64300BCC34F /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		422C8B3A1AF7C64300BCC34F /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		422C8B3B1AF7C64300BCC34F /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		422C8B411AF7C65900BCC34F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D26DC1D97A4FF5AB8CC483F /* Pods-Specs.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.profile_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.profile_production.xcconfig"; sourceTree = "<group>"; };
 		570039B4FD45DBAF5A8E969C /* Pods.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.test_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.test_production.xcconfig"; sourceTree = "<group>"; };
@@ -79,7 +100,7 @@
 		BD49EA2C18EC842B00F73350 /* Teachers-are-Gold-Environment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Teachers-are-Gold-Environment.h"; sourceTree = "<group>"; };
 		BD574AFE18EA481500EDD66F /* Teachers-are-Gold-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teachers-are-Gold-Prefix.pch"; sourceTree = "<group>"; };
 		BD574AFF18EA481500EDD66F /* Teachers-are-Gold-Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Teachers-are-Gold-Test.xcconfig"; sourceTree = "<group>"; };
-		BD574B0018EA481500EDD66F /* Teachers-are-Gold.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Teachers-are-Gold.xcconfig; sourceTree = "<group>"; };
+		BD574B0018EA481500EDD66F /* Teachers-are-Gold.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Teachers-are-Gold.xcconfig"; sourceTree = "<group>"; };
 		BD574B0218EA481500EDD66F /* Pods-Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-Environment.h"; sourceTree = "<group>"; };
 		BD6951CE18EA4B0800F2F410 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD6951EA18EA54A800F2F410 /* Teachers-are-Gold-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Teachers-are-Gold-Info.plist"; sourceTree = "<group>"; };
@@ -91,7 +112,7 @@
 		BD934CD319C211F600B48551 /* StoryboardIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardIdentifiers.m; sourceTree = "<group>"; };
 		BD9FFD9418E66DF4001DF6EC /* Specs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
 		BDD81EE419DB5FCB00E45AC2 /* xcconfigs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xcconfigs; sourceTree = "<group>"; };
-		BDDB994F18C3943B003EBC42 /* Teachers-are-Gold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teachers-are-Gold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDB994F18C3943B003EBC42 /* Teachers-are-Gold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teachers-are-Gold.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB996118C3943B003EBC42 /* TAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGAppDelegate.h; sourceTree = "<group>"; };
 		BDDB996218C3943B003EBC42 /* TAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAGAppDelegate.m; sourceTree = "<group>"; };
 		BDDB996A18C3943B003EBC42 /* TAGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGViewController.h; sourceTree = "<group>"; };
@@ -110,6 +131,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */,
+				422C8B3D1AF7C64300BCC34F /* ParseCrashReporting.framework in Frameworks */,
+				422C8B3F1AF7C64300BCC34F /* ParseFacebookUtilsV4.framework in Frameworks */,
+				422C8B3E1AF7C64300BCC34F /* ParseFacebookUtils.framework in Frameworks */,
+				422C8B2E1AF7BFC700BCC34F /* Crashlytics.framework in Frameworks */,
+				422C8B3C1AF7C64300BCC34F /* Parse.framework in Frameworks */,
+				422C8B421AF7C65900BCC34F /* Bolts.framework in Frameworks */,
+				422C8B401AF7C64300BCC34F /* ParseUI.framework in Frameworks */,
+				422C8B2D1AF7BFC700BCC34F /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +153,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		422C8B2F1AF7C02100BCC34F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				422C8B411AF7C65900BCC34F /* Bolts.framework */,
+				422C8B371AF7C64300BCC34F /* Parse.framework */,
+				422C8B381AF7C64300BCC34F /* ParseCrashReporting.framework */,
+				422C8B391AF7C64300BCC34F /* ParseFacebookUtils.framework */,
+				422C8B3A1AF7C64300BCC34F /* ParseFacebookUtilsV4.framework */,
+				422C8B3B1AF7C64300BCC34F /* ParseUI.framework */,
+				422C8B2B1AF7BFC700BCC34F /* Fabric.framework */,
+				422C8B2C1AF7BFC700BCC34F /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		422C8B301AF7C2A600BCC34F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				422C8B341AF7C3B800BCC34F /* TAGLoginStatus.h */,
+				422C8B351AF7C3B800BCC34F /* TAGLoginStatus.m */,
+				422C8B311AF7C30100BCC34F /* TAGEnumerations.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		55C5AA14CC157D6E10D487F9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,7 +275,7 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		BDB71B2618EA471400579B97 /* Controllers */ = {
+		BDB71B2618EA471400579B97 /* Storyboards and Xibs */ = {
 			isa = PBXGroup;
 			children = (
 				BD6951EB18EA54BB00F2F410 /* Main_iPad.storyboard */,
@@ -229,12 +283,14 @@
 				BDDB996A18C3943B003EBC42 /* TAGViewController.h */,
 				BDDB996B18C3943B003EBC42 /* TAGViewController.m */,
 			);
+			name = "Storyboards and Xibs";
 			path = Controllers;
 			sourceTree = "<group>";
 		};
 		BDDB994618C3943B003EBC42 = {
 			isa = PBXGroup;
 			children = (
+				422C8B2F1AF7C02100BCC34F /* Frameworks */,
 				BDDB995818C3943B003EBC42 /* Teachers-are-Gold */,
 				BDDB997A18C3943B003EBC42 /* Specs */,
 				BDF1754E18C3972E008BD9C6 /* External */,
@@ -259,7 +315,8 @@
 		BDDB995818C3943B003EBC42 /* Teachers-are-Gold */ = {
 			isa = PBXGroup;
 			children = (
-				BDB71B2618EA471400579B97 /* Controllers */,
+				422C8B301AF7C2A600BCC34F /* Helpers */,
+				BDB71B2618EA471400579B97 /* Storyboards and Xibs */,
 				BD574AFB18EA47FA00EDD66F /* Models */,
 				BD574AFA18EA47FA00EDD66F /* Library */,
 				BD3CA8BA18D8A68600C993E0 /* Resources */,
@@ -267,7 +324,7 @@
 				BDB71B2518EA46ED00579B97 /* Application */,
 				BD574AFC18EA481500EDD66F /* Other Sources */,
 			);
-			path = Teachers-are-Gold;
+			path = "Teachers-are-Gold";
 			sourceTree = "<group>";
 		};
 		BDDB997A18C3943B003EBC42 /* Specs */ = {
@@ -321,17 +378,17 @@
 				BD36522718CE89C6009107A7 /* Increment Build Number */,
 				BDDB994D18C3943B003EBC42 /* Resources */,
 				5934C2BEC75D4C51B3689E07 /* Copy Pods Resources */,
-				BDF1758318C3A844008BD9C6 /* Crashlytics Script */,
 				BDC7F36218EBA5EE0045D4BD /* Remove Unused Localizations */,
 				BD35136319BE21BD00A19841 /* Badge App Icons */,
+				422C8B261AF7BF5700BCC34F /* ShellScript */,
 			);
 			buildRules = (
 				BD3D80F418E8B70200FAD1EB /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
-			name = Teachers-are-Gold;
-			productName = Teachers-are-Gold;
+			name = "Teachers-are-Gold";
+			productName = "Teachers-are-Gold";
 			productReference = BDDB994F18C3943B003EBC42 /* Teachers-are-Gold.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -351,7 +408,7 @@
 				BDDB997918C3943B003EBC42 /* PBXTargetDependency */,
 			);
 			name = Specs;
-			productName = Teachers-are-GoldTests;
+			productName = "Teachers-are-GoldTests";
 			productReference = BDDB997318C3943B003EBC42 /* Specs.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -365,13 +422,16 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Glorious Technologies";
 				TargetAttributes = {
+					BDDB994E18C3943B003EBC42 = {
+						DevelopmentTeam = LU43ENQ2W4;
+					};
 					BDDB997218C3943B003EBC42 = {
 						TestTargetID = BDDB994E18C3943B003EBC42;
 					};
 				};
 			};
 			buildConfigurationList = BDDB994A18C3943B003EBC42 /* Build configuration list for PBXProject "Teachers-are-Gold" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -426,6 +486,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		422C8B261AF7BF5700BCC34F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run fbbffe81c6dfa6acb79e6df73e9167fd1a9701f7 0ae4deeb654c548d3e54f3aff82d265fc4a3ebe2af3c4fc6dcce0374988d0eff";
 		};
 		5934C2BEC75D4C51B3689E07 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -517,21 +590,6 @@
 			shellScript = "# This removes localization files for regions which you haven't explicitly localized\n# in the project settings. This is to work around an issue with pods that include\n# localizations for many languages, and the subsequent misreading of those files\n# by iTunes Connect.\n# See this GitHub issue for more details and other workarounds:\n# https://github.com/mattt/FormatterKit/issues/88\n\n# Feel free to remove this build phase if that problem doesn't apply to you,\n# though leaving it in should be harmless.\n\n\"${SRCROOT}/Scripts/RemoveUnusedLocalizations.py\"";
 			showEnvVarsInLog = 0;
 		};
-		BDF1758318C3A844008BD9C6 /* Crashlytics Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Crashlytics Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "# If you have installed the Crashlytics pod, this script runs the required\n# setup script. If you didn't set up Crashlytics in the bootstrap script,\n# you will need to insert your API key below, as well as in the AppDelegate.\n# You can retrieve that key by running this command in Terminal:\n# ruby -e \"$(curl -fsSL https://raw.github.com/crushlovely/Amaro/master/tiramisu)\" -- --crashlytics\n\n# If you didn't install the CrashlyticsFramework pod, this script will do nothing.\n# Feel free to remove it in that case, if you wish.\n\nCRASHLYTICS_SCRIPT=\"./Pods/CrashlyticsFramework/Crashlytics.framework/run\"\n[ -x \"$CRASHLYTICS_SCRIPT\" ] || exit 0\n\n# Enter your key below:\nCRASHLYTICS_API_KEY=\"((CrashlyticsAPIKey))\"\n\nif [ \"${CRASHLYTICS_API_KEY:0:1}\" = \"(\" ]; then\n  echo \"warning: Set your Crashlytics API key in the Build Phases tab to enable Crashlytics integration\" 1>&2\n  exit 0\nfi\n\n\"$CRASHLYTICS_SCRIPT\" \"$CRASHLYTICS_API_KEY\"";
-			showEnvVarsInLog = 0;
-		};
 		BDF4202019B8F31200FE6C13 /* Generate Storyboard Identifier File */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -570,8 +628,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD35136619BE274A00A19841 /* TAGConstants.m in Sources */,
+				422C8B321AF7C30100BCC34F /* TAGEnumerations.m in Sources */,
 				BDDB996318C3943B003EBC42 /* TAGAppDelegate.m in Sources */,
 				BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */,
+				422C8B361AF7C3B800BCC34F /* TAGLoginStatus.m in Sources */,
 				BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */,
 				BD6951CF18EA4B0800F2F410 /* main.m in Sources */,
 				BDDB996C18C3943B003EBC42 /* TAGViewController.m in Sources */,
@@ -602,6 +662,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD3570BB19929359006C5409 /* Teachers-are-Gold-Debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Josh Campbell (59KH59BQNV)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -616,6 +677,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = .prod;
 				BUNDLE_NAME_SUFFIX = " (Prod)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
 				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
@@ -646,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD574AFF18EA481500EDD66F /* Teachers-are-Gold-Test.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Josh Campbell (59KH59BQNV)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -660,6 +727,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = .prod;
 				BUNDLE_NAME_SUFFIX = " (Prod)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
 				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
@@ -690,6 +762,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD3570BD19929436006C5409 /* Teachers-are-Gold-Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Josh Campbell (59KH59BQNV)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -705,7 +778,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = .prod;
 				BUNDLE_NAME_SUFFIX = " (Prod)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
 				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
@@ -736,6 +814,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD3570BC199293C2006C5409 /* Teachers-are-Gold-Profile.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Josh Campbell (59KH59BQNV)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -751,6 +830,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = .prod;
 				BUNDLE_NAME_SUFFIX = " (Prod)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
 				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
@@ -781,6 +865,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD3570BD19929436006C5409 /* Teachers-are-Gold-Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Josh Campbell (59KH59BQNV)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -796,7 +881,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = .staging;
 				BUNDLE_NAME_SUFFIX = " (Staging)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
 				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
@@ -827,6 +917,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD3570BB19929359006C5409 /* Teachers-are-Gold-Debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Josh Campbell (59KH59BQNV)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -837,6 +928,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD3570BD19929436006C5409 /* Teachers-are-Gold-Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Josh Campbell (59KH59BQNV)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -852,6 +944,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = .staging;
 				BUNDLE_NAME_SUFFIX = " (Staging)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
 				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
@@ -867,7 +964,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = "";
 				BUNDLE_NAME_SUFFIX = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
 				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
@@ -917,6 +1019,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD3570BC199293C2006C5409 /* Teachers-are-Gold-Profile.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Josh Campbell (59KH59BQNV)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -932,6 +1035,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = .staging;
 				BUNDLE_NAME_SUFFIX = " (Staging)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
 				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";
@@ -962,6 +1070,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD574AFF18EA481500EDD66F /* Teachers-are-Gold-Test.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Josh Campbell (59KH59BQNV)";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -976,6 +1085,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				BUNDLE_ID_SUFFIX = .staging;
 				BUNDLE_NAME_SUFFIX = " (Staging)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Teachers-are-Gold/Application/Teachers-are-Gold-Prefix.pch";
 				INFOPLIST_FILE = "Teachers-are-Gold/Other-Sources/Teachers-are-Gold-Info.plist";

@@ -8,10 +8,6 @@
 
 #import "TAGAppDelegate.h"
 
-#if HAS_POD(CrashlyticsFramework)
-#import <Crashlytics/Crashlytics.h>
-#endif
-
 #if HAS_POD(CocoaLumberjack)
     #if COCOAPODS_VERSION_MAJOR_CocoaLumberjack == 1
     #import <CocoaLumberjack/DDASLLogger.h>
@@ -54,13 +50,8 @@
  */
 -(void)initializeLoggingAndServices
 {
-    #if HAS_POD(CrashlyticsFramework)
-    NSString *crashlyticsAPIKey = @"((CrashlyticsAPIKey))";
-
-    if([crashlyticsAPIKey characterAtIndex:0] != '(') [Crashlytics startWithAPIKey:crashlyticsAPIKey];
-    else NSLog(@"Set your Crashlytics API key in the app delegate to enable Crashlytics integration!");
-    #endif
-
+    [Fabric with:@[CrashlyticsKit]];
+    
     #if HAS_POD(CocoaLumberjack)
         #if HAS_POD(Sidecar)
         CRLMethodLogFormatter *logFormatter = [[CRLMethodLogFormatter alloc] init];

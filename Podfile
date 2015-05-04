@@ -6,11 +6,13 @@ platform :ios, '7.0'
 
 # Logging & Analytics
 pod 'CocoaLumberjack', '~> 1.9.0'
-pod 'CrashlyticsFramework'
 pod 'CrashlyticsLumberjack', '~>1.0.0'
 
 # Networking
 pod 'AFNetworking'
+
+# Ensembles
+pod "Ensembles", "~> 1.0"
 
 # Various goodies   # Useful macros and some craziness
 pod 'FormatterKit'     # For all your string formatting needs
@@ -19,7 +21,6 @@ pod 'Asterism'         # Nice & fast collection operations
 # You may want...
 pod 'PromiseKit'      # Promises/A+-alike
 pod 'Mantle'          # Github's model framework
-#pod 'SSKeychain'      # Go-to keychain wrapper
 pod 'DateTools'       # Datetime heavy lifting
 pod 'PixateFreestyle' # Style your app with CSS
 pod 'Masonry'         # Convenient autolayout DSL

@@ -25,6 +25,8 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <Fabric/Fabric.h>
+    #import <Crashlytics/Crashlytics.h>
 
     #if HAS_POD(CocoaLumberjack)
         #if COCOAPODS_VERSION_MAJOR_CocoaLumberjack == 1

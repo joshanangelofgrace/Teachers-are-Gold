@@ -72,12 +72,6 @@
 #define COCOAPODS_VERSION_MINOR_CocoaLumberjack_Extensions 9
 #define COCOAPODS_VERSION_PATCH_CocoaLumberjack_Extensions 2
 
-// CrashlyticsFramework
-#define COCOAPODS_POD_AVAILABLE_CrashlyticsFramework
-#define COCOAPODS_VERSION_MAJOR_CrashlyticsFramework 2
-#define COCOAPODS_VERSION_MINOR_CrashlyticsFramework 2
-#define COCOAPODS_VERSION_PATCH_CrashlyticsFramework 10
-
 // CrashlyticsLumberjack
 #define COCOAPODS_POD_AVAILABLE_CrashlyticsLumberjack
 #define COCOAPODS_VERSION_MAJOR_CrashlyticsLumberjack 1
@@ -89,6 +83,18 @@
 #define COCOAPODS_VERSION_MAJOR_DateTools 1
 #define COCOAPODS_VERSION_MINOR_DateTools 5
 #define COCOAPODS_VERSION_PATCH_DateTools 0
+
+// Ensembles
+#define COCOAPODS_POD_AVAILABLE_Ensembles
+#define COCOAPODS_VERSION_MAJOR_Ensembles 1
+#define COCOAPODS_VERSION_MINOR_Ensembles 3
+#define COCOAPODS_VERSION_PATCH_Ensembles 2
+
+// Ensembles/Core
+#define COCOAPODS_POD_AVAILABLE_Ensembles_Core
+#define COCOAPODS_VERSION_MAJOR_Ensembles_Core 1
+#define COCOAPODS_VERSION_MINOR_Ensembles_Core 3
+#define COCOAPODS_VERSION_PATCH_Ensembles_Core 2
 
 // FormatterKit
 #define COCOAPODS_POD_AVAILABLE_FormatterKit
